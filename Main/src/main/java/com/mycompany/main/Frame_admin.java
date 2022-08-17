@@ -83,7 +83,7 @@ public class Frame_admin extends javax.swing.JFrame {
                 .addContainerGap(13, Short.MAX_VALUE))
         );
 
-        verInventario.setBackground(new java.awt.Color(255, 255, 255));
+        verInventario.setBackground(new java.awt.Color(60, 63, 65));
         verInventario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/images/inventory.png"))); // NOI18N
         verInventario.setBorderPainted(false);
         verInventario.setName("inventario"); // NOI18N
@@ -93,7 +93,7 @@ public class Frame_admin extends javax.swing.JFrame {
             }
         });
 
-        agregarLibro.setBackground(new java.awt.Color(255, 255, 255));
+        agregarLibro.setBackground(new java.awt.Color(60, 63, 65));
         agregarLibro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/images/addBook.png"))); // NOI18N
         agregarLibro.setBorderPainted(false);
         agregarLibro.setName("agregarLibro"); // NOI18N
@@ -103,7 +103,7 @@ public class Frame_admin extends javax.swing.JFrame {
             }
         });
 
-        modificarLibro.setBackground(new java.awt.Color(255, 255, 255));
+        modificarLibro.setBackground(new java.awt.Color(60, 63, 65));
         modificarLibro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/images/editBook.png"))); // NOI18N
         modificarLibro.setBorderPainted(false);
         modificarLibro.setName("modificarLibro"); // NOI18N
@@ -113,7 +113,7 @@ public class Frame_admin extends javax.swing.JFrame {
             }
         });
 
-        borrarLibro.setBackground(new java.awt.Color(255, 255, 255));
+        borrarLibro.setBackground(new java.awt.Color(60, 63, 65));
         borrarLibro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/images/deleteBook.png"))); // NOI18N
         borrarLibro.setBorderPainted(false);
         borrarLibro.setName("borrarLibro"); // NOI18N
@@ -123,7 +123,7 @@ public class Frame_admin extends javax.swing.JFrame {
             }
         });
 
-        agregarUsu.setBackground(new java.awt.Color(255, 255, 255));
+        agregarUsu.setBackground(new java.awt.Color(60, 63, 65));
         agregarUsu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/images/addUsuario.png"))); // NOI18N
         agregarUsu.setBorderPainted(false);
         agregarUsu.setName("agregarUsuario"); // NOI18N
@@ -133,7 +133,7 @@ public class Frame_admin extends javax.swing.JFrame {
             }
         });
 
-        acercaDe.setBackground(new java.awt.Color(255, 255, 255));
+        acercaDe.setBackground(new java.awt.Color(60, 63, 65));
         acercaDe.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/images/About.png"))); // NOI18N
         acercaDe.setBorderPainted(false);
         acercaDe.setName("acercaDe"); // NOI18N
@@ -156,7 +156,7 @@ public class Frame_admin extends javax.swing.JFrame {
         jLabel5.setText("Borrar Libro");
 
         jLabel6.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
-        jLabel6.setText("Agregar Usuario");
+        jLabel6.setText("Gestionar Usuarios");
 
         jLabel7.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
         jLabel7.setText("Acerca De");
@@ -169,7 +169,7 @@ public class Frame_admin extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(88, 88, 88)
                 .addComponent(jLabel5)
-                .addGap(111, 111, 111)
+                .addGap(100, 100, 100)
                 .addComponent(jLabel6)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel7)
@@ -191,7 +191,7 @@ public class Frame_admin extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(35, 35, 35)
                         .addComponent(jLabel3))
-                    .addComponent(agregarLibro, javax.swing.GroupLayout.DEFAULT_SIZE, 150, Short.MAX_VALUE)
+                    .addComponent(agregarLibro, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(agregarUsu, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -216,7 +216,7 @@ public class Frame_admin extends javax.swing.JFrame {
                         .addComponent(jLabel4))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(agregarLibro, javax.swing.GroupLayout.DEFAULT_SIZE, 150, Short.MAX_VALUE)
+                            .addComponent(agregarLibro, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(verInventario, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -224,7 +224,7 @@ public class Frame_admin extends javax.swing.JFrame {
                             .addComponent(jLabel3))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 23, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(agregarUsu, javax.swing.GroupLayout.DEFAULT_SIZE, 150, Short.MAX_VALUE)
+                    .addComponent(agregarUsu, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(acercaDe, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(borrarLibro, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
